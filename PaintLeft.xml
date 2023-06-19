@@ -1,0 +1,148 @@
+<program issystem="true">
+  <properties>
+    <property name="Name" value="Main" isvisible="True" order="10" type="System.String" constraint="AllValuesAllowed" />
+    <property name="IsPublic" value="False" isvisible="True" order="20" type="System.Boolean" constraint="AllValuesAllowed" />
+  </properties>
+  <positions />
+  <subroutines />
+  <mainroutine>
+    <routine name="Main">
+      <properties>
+        <property name="Name" value="Main" isvisible="False" order="-10" type="System.String" constraint="AllValuesAllowed" />
+        <property name="ProjectDirectory" value="C:\Temp\" isvisible="True" order="-19" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Browse Project Directory" value="" isvisible="True" order="-18" type="VisualComponents.Create3D.IButtonProperty" constraint="AllValuesAllowed" />
+        <property name="ProjectName" value="My_Project" isvisible="True" order="-17" type="System.String" constraint="AllValuesAllowed" />
+        <property name="JobName" value="My_Job" isvisible="True" order="-15" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Author" value="My Author" isvisible="True" order="-14" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Company" value="My Company" isvisible="True" order="-13" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Division" value="My Division" isvisible="True" order="-12" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Comment" value="My Comment" isvisible="True" order="-11" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Set ProjectName" value="" isvisible="True" order="-16" type="VisualComponents.Create3D.IButtonProperty" constraint="AllValuesAllowed" />
+        <property name="b" value="0" isvisible="True" order="10" type="System.Int32" constraint="AllValuesAllowed" />
+        <property name="a" value="0" isvisible="True" order="10" type="System.Int32" constraint="AllValuesAllowed" />
+      </properties>
+      <statements>
+        <statement type="IDelayStatement">
+          <properties>
+            <property name="Name" value="" isvisible="False" order="-10" type="System.String" constraint="AllValuesAllowed" />
+            <property name="ExecutedCycleTime" value="70" isvisible="False" order="-10" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="Delay" value="70" isvisible="True" order="10" type="System.Double" quantity="Time" constraint="AllValuesAllowed" />
+          </properties>
+        </statement>
+        <statement type="ISetPropertyStatement">
+          <properties>
+            <property name="Name" value="" isvisible="False" order="-10" type="System.String" constraint="AllValuesAllowed" />
+            <property name="ExecutedCycleTime" value="0" isvisible="False" order="-10" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="TargetProperty" value="a" isvisible="True" order="20" type="VisualComponents.Create3D.IExpressionProperty" constraint="AllValuesAllowed" />
+            <property name="ValueExpression" value="0" isvisible="True" order="30" type="VisualComponents.Create3D.IExpressionProperty" constraint="AllValuesAllowed" />
+          </properties>
+        </statement>
+        <statement type="IWhileStatement">
+          <properties>
+            <property name="Name" value="" isvisible="False" order="-10" type="System.String" constraint="AllValuesAllowed" />
+            <property name="ExecutedCycleTime" value="0" isvisible="False" order="-10" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="Condition" value="a&lt;5" isvisible="True" order="10" type="VisualComponents.Create3D.IExpressionProperty" constraint="AllValuesAllowed" />
+          </properties>
+          <statements>
+            <statement type="ISetPropertyStatement">
+              <properties>
+                <property name="Name" value="" isvisible="False" order="-10" type="System.String" constraint="AllValuesAllowed" />
+                <property name="ExecutedCycleTime" value="0" isvisible="False" order="-10" type="System.Double" constraint="AllValuesAllowed" />
+                <property name="TargetProperty" value="a" isvisible="True" order="20" type="VisualComponents.Create3D.IExpressionProperty" constraint="AllValuesAllowed" />
+                <property name="ValueExpression" value="a+1" isvisible="True" order="30" type="VisualComponents.Create3D.IExpressionProperty" constraint="AllValuesAllowed" />
+              </properties>
+            </statement>
+            <statement type="SchemaPathStatement">
+              <base name="" index="-1" />
+              <tool name="PaintTCP" index="16" />
+              <schemaproperties>
+                <property name="Position" value="1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1" isvisible="False" order="10" type="VisualComponents.Create3D.Matrix" constraint="AllValuesAllowed" />
+                <property name="FrameVisible" value="False" isvisible="False" order="20" type="System.Boolean" constraint="AllValuesAllowed" />
+                <property name="LineVisible" value="True" isvisible="False" order="30" type="System.Boolean" constraint="AllValuesAllowed" />
+                <property name="LineColor" value="-1;-1;-1" isvisible="False" order="40" type="VisualComponents.Create3D.Vector3" constraint="AllValuesAllowed" />
+                <property name="IsReference" value="False" isvisible="True" order="50" type="System.Boolean" constraint="AllValuesAllowed" />
+                <property name="PositionStatus" value="7" isvisible="False" order="60" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="IsContinuous" value="False" isvisible="True" order="70" type="System.Boolean" constraint="AllValuesAllowed" />
+                <property name="MaxSpeed" value="2500" isvisible="True" order="80" type="System.Double" constraint="AllValuesAllowed" />
+                <property name="Acceleration" value="5000" isvisible="True" order="90" type="System.Double" constraint="AllValuesAllowed" />
+                <property name="Deceleration" value="5000" isvisible="True" order="100" type="System.Double" constraint="AllValuesAllowed" />
+                <property name="AccuracyMethod" value="1" isvisible="True" order="110" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="AccuracyValue" value="0" isvisible="True" order="120" type="System.Double" constraint="AllValuesAllowed" />
+              </schemaproperties>
+              <data>Position_Nx,Position_Ny,Position_Nz,Position_Nw,Position_Ox,Position_Oy,Position_Oz,Position_Ow,Position_Ax,Position_Ay,Position_Az,Position_Aw,Position_Px,Position_Py,Position_Pz,Position_Pw,FrameVisible,LineVisible,LineColor_x,LineColor_y,LineColor_z,LineColor_w,IsReference,PositionStatus,IsContinuous,MaxSpeed,Acceleration,Deceleration,AccuracyMethod,AccuracyValue
+-0.0387775,-0.000141473,-0.999248,0,-0.000231109,1,-0.000132611,0,0.999248,0.000225793,-0.0387775,0,1827.65,-1196.35,1142.18,1,0,1,-1,-1,-1,1,1,7,0,1000,5000,5000,1,0
+-0.0387863,-0.000141475,-0.999248,0,-0.000231504,1,-0.000132596,0,0.999248,0.000226187,-0.0387863,0,1827.68,-1316.02,1142.37,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.163835,-0.000157644,-0.986488,0,-5.59839e-05,1,-0.000150506,0,0.986488,3.05693e-05,-0.163835,0,1827.68,-1316.02,1142.37,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.163892,-0.000157646,-0.986478,0,-5.70592e-05,1,-0.000150327,0,0.986478,3.16502e-05,-0.163892,0,1827.82,-1799.17,1143.1,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.0387512,-0.000141419,-0.999249,0,-0.000231151,1,-0.000132561,0,0.999249,0.000225841,-0.0387513,0,1827.82,-1799.17,1143.1,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.0387599,-0.000141421,-0.999249,0,-0.000231539,1,-0.000132546,0,0.999249,0.000226228,-0.0387599,0,1827.86,-1918.84,1143.28,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.163859,-0.000157636,-0.986484,0,-5.65689e-05,1,-0.0001504,0,0.986484,3.116e-05,-0.163859,0,1827.86,-1918.84,1143.28,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.163858,-0.000157636,-0.986484,0,-5.65484e-05,1,-0.000150403,0,0.986484,3.11393e-05,-0.163858,0,1829.38,-1946.34,1152.48,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.16385,-0.000157636,-0.986485,0,-5.66348e-05,1,-0.000150389,0,0.986485,3.12282e-05,-0.16385,0,1833.1,-1982.49,1174.84,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.163848,-0.000157636,-0.986486,0,-5.67714e-05,1,-0.000150366,0,0.986486,3.13671e-05,-0.163848,0,1837.94,-2010.2,1203.95,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.163847,-0.000157636,-0.986486,0,-5.65623e-05,1,-0.000150401,0,0.986486,3.11552e-05,-0.163847,0,1843.56,-2027.6,1237.83,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.163847,-0.000157636,-0.986486,0,-5.63456e-05,1,-0.000150437,0,0.986486,3.09355e-05,-0.163847,0,1849.6,-2033.49,1274.17,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.163838,-0.000157635,-0.986487,0,-5.63611e-05,1,-0.000150434,0,0.986487,3.09527e-05,-0.163838,0,1876.74,-2030.41,1437.61,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.163832,-0.000157635,-0.986488,0,-5.63945e-05,1,-0.000150429,0,0.986488,3.09876e-05,-0.163832,0,1878.53,-2028.62,1448.38,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286826,-0.000149265,-0.957983,0,0.00011364,1,-0.000189836,0,0.957983,-0.000163315,-0.286826,0,1878.53,-2028.62,1448.38,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286817,-0.000149266,-0.957985,0,0.000113901,1,-0.000189914,0,0.957985,-0.000163586,-0.286817,0,1886.21,-2024.39,1474.01,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286808,-0.000149268,-0.957988,0,0.000113799,1,-0.000189884,0,0.957988,-0.000163478,-0.286808,0,1896.37,-2006.88,1507.95,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286817,-0.000149267,-0.957985,0,0.000114347,1,-0.000190048,0,0.957985,-0.000164051,-0.286817,0,1905.09,-1979.07,1537.07,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286804,-0.000149269,-0.957989,0,0.000114193,1,-0.000190002,0,0.957989,-0.000163889,-0.286804,0,1911.78,-1942.85,1559.39,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286784,-0.000149272,-0.957995,0,0.000114121,1,-0.00018998,0,0.957995,-0.000163811,-0.286784,0,1915.98,-1900.69,1573.4,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286811,-0.000149268,-0.957987,0,0.00011407,1,-0.000189965,0,0.957987,-0.000163761,-0.286811,0,1917.41,-1855.47,1578.13,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286811,-0.000149268,-0.957987,0,0.000114071,1,-0.000189965,0,0.957987,-0.000163762,-0.286811,0,1917.15,-954.057,1576.75,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286811,-0.000149268,-0.957987,0,0.000114072,1,-0.000189966,0,0.957987,-0.000163763,-0.286811,0,1916.89,-52.6477,1575.38,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286811,-0.000149268,-0.957987,0,0.000114073,1,-0.000189966,0,0.957987,-0.000163765,-0.286811,0,1916.64,848.762,1574.01,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286811,-0.000149268,-0.957987,0,0.000114074,1,-0.000189966,0,0.957987,-0.000163766,-0.286811,0,1916.38,1750.17,1572.64,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286795,-0.00014927,-0.957992,0,0.000113994,1,-0.000189942,0,0.957992,-0.000163679,-0.286795,0,1914.93,1795.38,1567.78,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286804,-0.000149269,-0.957989,0,0.000113666,1,-0.000189844,0,0.957989,-0.000163339,-0.286804,0,1910.71,1837.49,1553.64,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286822,-0.000149266,-0.957984,0,0.000113917,1,-0.000189919,0,0.957984,-0.000163603,-0.286822,0,1904,1873.63,1531.21,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286808,-0.000149268,-0.957988,0,0.000113766,1,-0.000189874,0,0.957988,-0.000163444,-0.286808,0,1895.26,1901.34,1502.01,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286815,-0.000149267,-0.957986,0,0.000113239,1,-0.000189716,0,0.957986,-0.000162895,-0.286815,0,1885.09,1918.74,1468.02,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.286828,-0.000149265,-0.957982,0,0.000113414,1,-0.000189769,0,0.957982,-0.000163079,-0.286828,0,1877.41,1922.88,1442.37,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.405938,-0.000116143,-0.913901,0,0.000279522,1,-0.000251243,0,0.913901,-0.000357445,-0.405938,0,1965.98,1436.65,1738.47,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.405938,-0.000116143,-0.913901,0,0.000279519,1,-0.000251242,0,0.913901,-0.000357441,-0.405938,0,1966.24,521.28,1739.86,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.405938,-0.000116143,-0.913901,0,0.000279515,1,-0.00025124,0,0.913901,-0.000357437,-0.405938,0,1966.5,-394.095,1741.26,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+-0.405938,-0.000116143,-0.913901,0,0.000279512,1,-0.000251239,0,0.913901,-0.000357433,-0.405938,0,1966.76,-1309.47,1742.65,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0
+</data>
+              <properties>
+                <property name="Name" value="PP1" isvisible="True" order="-10" type="System.String" constraint="AllValuesAllowed" />
+                <property name="ExecutedCycleTime" value="15.3954669674554" isvisible="False" order="-10" type="System.Double" constraint="AllValuesAllowed" />
+                <property name="ExternalTCP" value="False" isvisible="False" order="40" type="System.Boolean" constraint="AllValuesAllowed" />
+                <property name="PositionField" value="0" isvisible="False" order="50" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="FrameVisibleField" value="1" isvisible="False" order="60" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="FrameNameField" value="-1" isvisible="False" order="70" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="FrameNameVisibleField" value="-1" isvisible="False" order="80" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="LineVisibleField" value="2" isvisible="False" order="90" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="PointVisibleField" value="-1" isvisible="False" order="100" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="LineColorField" value="3" isvisible="False" order="110" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="IsReferenceField" value="4" isvisible="False" order="120" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="PositionStatusField" value="5" isvisible="False" order="130" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="IsContinuousField" value="6" isvisible="False" order="140" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="UniqueIdentifier" value="7" isvisible="False" order="150" type="System.String" constraint="AllValuesAllowed" />
+                <property name="DatabaseVersion" value="2" isvisible="False" order="160" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="SchemaObjectsCount" value="35" isvisible="False" order="170" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="ExternalJointCount" value="0" isvisible="False" order="180" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="Description" value="" isvisible="False" order="190" type="System.String" constraint="AllValuesAllowed" />
+                <property name="IsVisible" value="True" isvisible="False" order="200" type="System.Boolean" constraint="AllValuesAllowed" />
+                <property name="ShowLine" value="True" isvisible="False" order="210" type="System.Boolean" constraint="AllValuesAllowed" />
+                <property name="ShowReferenceFrames" value="True" isvisible="False" order="220" type="System.Boolean" constraint="AllValuesAllowed" />
+                <property name="MaxSpeedField" value="7" isvisible="False" order="230" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="AccelerationField" value="8" isvisible="False" order="240" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="DecelerationField" value="9" isvisible="False" order="250" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="MaxAngularSpeedField" value="-1" isvisible="False" order="260" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="AngularAccelerationField" value="-1" isvisible="False" order="270" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="AngularDecelerationField" value="-1" isvisible="False" order="280" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="AccuracyMethodField" value="10" isvisible="False" order="290" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="AccuracyValueField" value="11" isvisible="False" order="300" type="System.Int32" constraint="AllValuesAllowed" />
+                <property name="ProcessHandler" isvisible="False" order="310" type="VisualComponents.Create3D.IBehavior" />
+                <property name="Apply Smoothing" value="" isvisible="True" order="400" type="VisualComponents.Create3D.IButtonProperty" constraint="AllValuesAllowed" />
+              </properties>
+            </statement>
+          </statements>
+        </statement>
+      </statements>
+    </routine>
+  </mainroutine>
+</program>

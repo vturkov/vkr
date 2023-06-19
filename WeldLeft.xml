@@ -1,0 +1,228 @@
+<program issystem="true">
+  <properties>
+    <property name="Name" value="Main" isvisible="True" order="10" type="System.String" constraint="AllValuesAllowed" />
+    <property name="IsPublic" value="False" isvisible="True" order="20" type="System.Boolean" constraint="AllValuesAllowed" />
+  </properties>
+  <positions />
+  <subroutines />
+  <mainroutine>
+    <routine name="Edge2">
+      <properties>
+        <property name="Name" value="Edge2" isvisible="False" order="-10" type="System.String" constraint="AllValuesAllowed" />
+        <property name="ProjectDirectory" value="C:\Temp\" isvisible="True" order="-19" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Browse Project Directory" value="" isvisible="True" order="-18" type="VisualComponents.Create3D.IButtonProperty" constraint="AllValuesAllowed" />
+        <property name="ProjectName" value="My Project" isvisible="True" order="-17" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Set ProjectName" value="" isvisible="True" order="-16" type="VisualComponents.Create3D.IButtonProperty" constraint="AllValuesAllowed" />
+        <property name="JobName" value="My_Job" isvisible="True" order="-15" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Author" value="My Author" isvisible="True" order="-14" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Company" value="My Company" isvisible="True" order="-13" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Division" value="My Division" isvisible="True" order="-12" type="System.String" constraint="AllValuesAllowed" />
+        <property name="Comment" value="My Comment" isvisible="True" order="-11" type="System.String" constraint="AllValuesAllowed" />
+      </properties>
+      <statements>
+        <statement type="IDelayStatement">
+          <properties>
+            <property name="Name" value="" isvisible="False" order="-10" type="System.String" constraint="AllValuesAllowed" />
+            <property name="ExecutedCycleTime" value="210" isvisible="False" order="-10" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="Delay" value="210" isvisible="True" order="10" type="System.Double" quantity="Time" constraint="AllValuesAllowed" />
+          </properties>
+        </statement>
+        <statement type="SchemaPathStatement">
+          <base name="" index="-1" />
+          <tool name="TOOL_DATA[1]" index="0" />
+          <schemaproperties>
+            <property name="Position" value="1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1" isvisible="False" order="10" type="VisualComponents.Create3D.Matrix" constraint="AllValuesAllowed" />
+            <property name="FrameVisible" value="False" isvisible="False" order="20" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="LineVisible" value="True" isvisible="False" order="30" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="LineColor" value="-1;-1;-1" isvisible="False" order="40" type="VisualComponents.Create3D.Vector3" constraint="AllValuesAllowed" />
+            <property name="IsReference" value="False" isvisible="True" order="50" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="PositionStatus" value="7" isvisible="False" order="60" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="IsContinuous" value="False" isvisible="True" order="70" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="MaxSpeed" value="2500" isvisible="True" order="80" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="Acceleration" value="5000" isvisible="True" order="90" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="Deceleration" value="5000" isvisible="True" order="100" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="AccuracyMethod" value="1" isvisible="True" order="110" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccuracyValue" value="0" isvisible="True" order="120" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="E1" value="0" isvisible="True" order="130" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="E2" value="0" isvisible="True" order="140" type="System.Double" constraint="AllValuesAllowed" />
+          </schemaproperties>
+          <data>Position_Nx,Position_Ny,Position_Nz,Position_Nw,Position_Ox,Position_Oy,Position_Oz,Position_Ow,Position_Ax,Position_Ay,Position_Az,Position_Aw,Position_Px,Position_Py,Position_Pz,Position_Pw,FrameVisible,LineVisible,LineColor_x,LineColor_y,LineColor_z,LineColor_w,IsReference,PositionStatus,IsContinuous,MaxSpeed,Acceleration,Deceleration,AccuracyMethod,AccuracyValue,E1,E2
+-0.0011489,-0.00131449,0.999998,0,0.226432,-0.974026,-0.0010202,0,0.974026,0.22643,0.00141671,0,-4950.37,4463.94,-1147.87,1,0,1,-1,-1,-1,1,1,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.00114891,-0.00131449,0.999998,0,0.226432,-0.974026,-0.0010202,0,0.974026,0.22643,0.00141671,0,-4882.99,4174.07,-1148.79,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.00093598,-0.00124951,0.999999,0,0.356024,-0.934476,-0.000834406,0,0.934476,0.356023,0.00131951,0,-4882.99,4174.07,-1148.79,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000935979,-0.00124951,0.999999,0,0.356024,-0.934477,-0.000834406,0,0.934476,0.356023,0.00131951,0,-4776.74,3895.2,-1150.41,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000735175,-0.00115709,0.999999,0,0.478287,-0.878204,-0.000664533,0,0.878203,0.478286,0.00119905,0,-4776.74,3895.2,-1150.41,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000735175,-0.00115709,0.999999,0,0.478287,-0.878204,-0.000664533,0,0.878204,0.478286,0.00119905,0,-4633.45,3632.1,-1152.71,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000550148,-0.00103967,0.999999,0,0.590943,-0.806713,-0.000513609,0,0.806713,0.590942,0.0010582,0,-4633.45,3632.1,-1152.71,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000550149,-0.00103967,0.999999,0,0.590943,-0.806713,-0.00051361,0,0.806713,0.590942,0.0010582,0,-4455.57,3389.27,-1155.64,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000383981,-0.000900185,1,0,0.692117,-0.721785,-0.000383981,0,0.721785,0.692116,0.000900185,0,-4455.57,3389.27,-1155.64,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000383981,-0.000900185,1,0,0.692117,-0.721785,-0.000383981,0,0.721785,0.692116,0.000900185,0,-4246.13,3170.87,-1159.16,1,0,1,-1,-1,-1,1,1,7,0,1000,5000,5000,1,0,5792.39,1420.92
+</data>
+          <properties>
+            <property name="Name" value="PP3" isvisible="True" order="-10" type="System.String" constraint="AllValuesAllowed" />
+            <property name="ExecutedCycleTime" value="4.94580694759566" isvisible="False" order="-10" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="ExternalTCP" value="False" isvisible="False" order="40" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="PositionField" value="0" isvisible="False" order="50" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="FrameVisibleField" value="1" isvisible="False" order="60" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="FrameNameField" value="-1" isvisible="False" order="70" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="FrameNameVisibleField" value="-1" isvisible="False" order="80" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="LineVisibleField" value="2" isvisible="False" order="90" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="PointVisibleField" value="-1" isvisible="False" order="100" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="LineColorField" value="3" isvisible="False" order="110" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="IsReferenceField" value="4" isvisible="False" order="120" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="PositionStatusField" value="5" isvisible="False" order="130" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="IsContinuousField" value="6" isvisible="False" order="140" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="UniqueIdentifier" value="3" isvisible="False" order="150" type="System.String" constraint="AllValuesAllowed" />
+            <property name="DatabaseVersion" value="2" isvisible="False" order="160" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="SchemaObjectsCount" value="10" isvisible="False" order="170" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="ExternalJointCount" value="2" isvisible="False" order="180" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="Description" value="" isvisible="False" order="190" type="System.String" constraint="AllValuesAllowed" />
+            <property name="IsVisible" value="True" isvisible="False" order="200" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="ShowLine" value="True" isvisible="False" order="210" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="ShowReferenceFrames" value="True" isvisible="False" order="220" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="MaxSpeedField" value="7" isvisible="False" order="230" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccelerationField" value="8" isvisible="False" order="240" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="DecelerationField" value="9" isvisible="False" order="250" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="MaxAngularSpeedField" value="-1" isvisible="False" order="260" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AngularAccelerationField" value="-1" isvisible="False" order="270" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AngularDecelerationField" value="-1" isvisible="False" order="280" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccuracyMethodField" value="10" isvisible="False" order="290" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccuracyValueField" value="11" isvisible="False" order="300" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="ProcessHandler" isvisible="False" order="310" type="VisualComponents.Create3D.IBehavior" />
+            <property name="Apply Smoothing" value="" isvisible="True" order="400" type="VisualComponents.Create3D.IButtonProperty" constraint="AllValuesAllowed" />
+          </properties>
+        </statement>
+        <statement type="SchemaPathStatement">
+          <base name="" index="-1" />
+          <tool name="TOOL_DATA[1]" index="0" />
+          <schemaproperties>
+            <property name="Position" value="1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1" isvisible="False" order="10" type="VisualComponents.Create3D.Matrix" constraint="AllValuesAllowed" />
+            <property name="FrameVisible" value="False" isvisible="False" order="20" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="LineVisible" value="True" isvisible="False" order="30" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="LineColor" value="-1;-1;-1" isvisible="False" order="40" type="VisualComponents.Create3D.Vector3" constraint="AllValuesAllowed" />
+            <property name="IsReference" value="False" isvisible="True" order="50" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="PositionStatus" value="7" isvisible="False" order="60" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="IsContinuous" value="False" isvisible="True" order="70" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="MaxSpeed" value="2500" isvisible="True" order="80" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="Acceleration" value="5000" isvisible="True" order="90" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="Deceleration" value="5000" isvisible="True" order="100" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="AccuracyMethod" value="1" isvisible="True" order="110" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccuracyValue" value="0" isvisible="True" order="120" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="E1" value="0" isvisible="True" order="130" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="E2" value="0" isvisible="True" order="140" type="System.Double" constraint="AllValuesAllowed" />
+          </schemaproperties>
+          <data>Position_Nx,Position_Ny,Position_Nz,Position_Nw,Position_Ox,Position_Oy,Position_Oz,Position_Ow,Position_Ax,Position_Ay,Position_Az,Position_Aw,Position_Px,Position_Py,Position_Pz,Position_Pw,FrameVisible,LineVisible,LineColor_x,LineColor_y,LineColor_z,LineColor_w,IsReference,PositionStatus,IsContinuous,MaxSpeed,Acceleration,Deceleration,AccuracyMethod,AccuracyValue,E1,E2
+-0.0011489,-0.00131449,0.999998,0,0.226432,-0.974026,-0.0010202,0,0.974026,0.22643,0.00141671,0,-4950.37,4463.94,-1147.87,1,0,1,-1,-1,-1,1,1,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.00114891,-0.00131449,0.999998,0,0.226432,-0.974026,-0.0010202,0,0.974026,0.22643,0.00141671,0,-4882.99,4174.07,-1148.79,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.00093598,-0.00124951,0.999999,0,0.356024,-0.934476,-0.000834406,0,0.934476,0.356023,0.00131951,0,-4882.99,4174.07,-1148.79,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000935979,-0.00124951,0.999999,0,0.356024,-0.934477,-0.000834406,0,0.934476,0.356023,0.00131951,0,-4776.74,3895.2,-1150.41,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000735175,-0.00115709,0.999999,0,0.478287,-0.878204,-0.000664533,0,0.878203,0.478286,0.00119905,0,-4776.74,3895.2,-1150.41,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000735175,-0.00115709,0.999999,0,0.478287,-0.878204,-0.000664533,0,0.878204,0.478286,0.00119905,0,-4633.45,3632.1,-1152.71,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000550148,-0.00103967,0.999999,0,0.590943,-0.806713,-0.000513609,0,0.806713,0.590942,0.0010582,0,-4633.45,3632.1,-1152.71,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000550149,-0.00103967,0.999999,0,0.590943,-0.806713,-0.00051361,0,0.806713,0.590942,0.0010582,0,-4455.57,3389.27,-1155.64,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000383981,-0.000900185,1,0,0.692117,-0.721785,-0.000383981,0,0.721785,0.692116,0.000900185,0,-4455.57,3389.27,-1155.64,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000383981,-0.000900185,1,0,0.692117,-0.721785,-0.000383981,0,0.721785,0.692116,0.000900185,0,-4246.13,3170.87,-1159.16,1,0,1,-1,-1,-1,1,1,7,0,1000,5000,5000,1,0,5792.39,1420.92
+</data>
+          <properties>
+            <property name="Name" value="PP2" isvisible="True" order="-10" type="System.String" constraint="AllValuesAllowed" />
+            <property name="ExecutedCycleTime" value="5.27473831169672" isvisible="False" order="-10" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="ExternalTCP" value="False" isvisible="False" order="40" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="PositionField" value="0" isvisible="False" order="50" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="FrameVisibleField" value="1" isvisible="False" order="60" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="FrameNameField" value="-1" isvisible="False" order="70" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="FrameNameVisibleField" value="-1" isvisible="False" order="80" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="LineVisibleField" value="2" isvisible="False" order="90" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="PointVisibleField" value="-1" isvisible="False" order="100" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="LineColorField" value="3" isvisible="False" order="110" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="IsReferenceField" value="4" isvisible="False" order="120" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="PositionStatusField" value="5" isvisible="False" order="130" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="IsContinuousField" value="6" isvisible="False" order="140" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="UniqueIdentifier" value="4" isvisible="False" order="150" type="System.String" constraint="AllValuesAllowed" />
+            <property name="DatabaseVersion" value="2" isvisible="False" order="160" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="SchemaObjectsCount" value="10" isvisible="False" order="170" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="ExternalJointCount" value="2" isvisible="False" order="180" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="Description" value="" isvisible="False" order="190" type="System.String" constraint="AllValuesAllowed" />
+            <property name="IsVisible" value="True" isvisible="False" order="200" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="ShowLine" value="True" isvisible="False" order="210" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="ShowReferenceFrames" value="True" isvisible="False" order="220" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="MaxSpeedField" value="7" isvisible="False" order="230" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccelerationField" value="8" isvisible="False" order="240" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="DecelerationField" value="9" isvisible="False" order="250" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="MaxAngularSpeedField" value="-1" isvisible="False" order="260" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AngularAccelerationField" value="-1" isvisible="False" order="270" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AngularDecelerationField" value="-1" isvisible="False" order="280" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccuracyMethodField" value="10" isvisible="False" order="290" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccuracyValueField" value="11" isvisible="False" order="300" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="ProcessHandler" isvisible="False" order="310" type="VisualComponents.Create3D.IBehavior" />
+            <property name="Apply Smoothing" value="" isvisible="True" order="400" type="VisualComponents.Create3D.IButtonProperty" constraint="AllValuesAllowed" />
+          </properties>
+        </statement>
+        <statement type="SchemaPathStatement">
+          <base name="" index="-1" />
+          <tool name="TOOL_DATA[1]" index="0" />
+          <schemaproperties>
+            <property name="Position" value="1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1" isvisible="False" order="10" type="VisualComponents.Create3D.Matrix" constraint="AllValuesAllowed" />
+            <property name="FrameVisible" value="False" isvisible="False" order="20" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="LineVisible" value="True" isvisible="False" order="30" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="LineColor" value="-1;-1;-1" isvisible="False" order="40" type="VisualComponents.Create3D.Vector3" constraint="AllValuesAllowed" />
+            <property name="IsReference" value="False" isvisible="True" order="50" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="PositionStatus" value="7" isvisible="False" order="60" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="IsContinuous" value="False" isvisible="True" order="70" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="MaxSpeed" value="2500" isvisible="True" order="80" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="Acceleration" value="5000" isvisible="True" order="90" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="Deceleration" value="5000" isvisible="True" order="100" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="AccuracyMethod" value="1" isvisible="True" order="110" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccuracyValue" value="0" isvisible="True" order="120" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="E1" value="0" isvisible="True" order="130" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="E2" value="0" isvisible="True" order="140" type="System.Double" constraint="AllValuesAllowed" />
+          </schemaproperties>
+          <data>Position_Nx,Position_Ny,Position_Nz,Position_Nw,Position_Ox,Position_Oy,Position_Oz,Position_Ow,Position_Ax,Position_Ay,Position_Az,Position_Aw,Position_Px,Position_Py,Position_Pz,Position_Pw,FrameVisible,LineVisible,LineColor_x,LineColor_y,LineColor_z,LineColor_w,IsReference,PositionStatus,IsContinuous,MaxSpeed,Acceleration,Deceleration,AccuracyMethod,AccuracyValue,E1,E2
+-0.0011489,-0.00131449,0.999998,0,0.226432,-0.974026,-0.0010202,0,0.974026,0.22643,0.00141671,0,-4950.37,4463.94,-1147.87,1,0,1,-1,-1,-1,1,1,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.00114891,-0.00131449,0.999998,0,0.226432,-0.974026,-0.0010202,0,0.974026,0.22643,0.00141671,0,-4882.99,4174.07,-1148.79,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.00093598,-0.00124951,0.999999,0,0.356024,-0.934476,-0.000834406,0,0.934476,0.356023,0.00131951,0,-4882.99,4174.07,-1148.79,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000935979,-0.00124951,0.999999,0,0.356024,-0.934477,-0.000834406,0,0.934476,0.356023,0.00131951,0,-4776.74,3895.2,-1150.41,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000735175,-0.00115709,0.999999,0,0.478287,-0.878204,-0.000664533,0,0.878203,0.478286,0.00119905,0,-4776.74,3895.2,-1150.41,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000735175,-0.00115709,0.999999,0,0.478287,-0.878204,-0.000664533,0,0.878204,0.478286,0.00119905,0,-4633.45,3632.1,-1152.71,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000550148,-0.00103967,0.999999,0,0.590943,-0.806713,-0.000513609,0,0.806713,0.590942,0.0010582,0,-4633.45,3632.1,-1152.71,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000550149,-0.00103967,0.999999,0,0.590943,-0.806713,-0.00051361,0,0.806713,0.590942,0.0010582,0,-4455.57,3389.27,-1155.64,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000383981,-0.000900185,1,0,0.692117,-0.721785,-0.000383981,0,0.721785,0.692116,0.000900185,0,-4455.57,3389.27,-1155.64,1,0,1,-1,-1,-1,1,0,7,0,1000,5000,5000,1,0,5792.39,1420.92
+-0.000383981,-0.000900185,1,0,0.692117,-0.721785,-0.000383981,0,0.721785,0.692116,0.000900185,0,-4246.13,3170.87,-1159.16,1,0,1,-1,-1,-1,1,1,7,0,1000,5000,5000,1,0,5792.39,1420.92
+</data>
+          <properties>
+            <property name="Name" value="PP1" isvisible="True" order="-10" type="System.String" constraint="AllValuesAllowed" />
+            <property name="ExecutedCycleTime" value="5.27473831169672" isvisible="False" order="-10" type="System.Double" constraint="AllValuesAllowed" />
+            <property name="ExternalTCP" value="False" isvisible="False" order="40" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="PositionField" value="0" isvisible="False" order="50" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="FrameVisibleField" value="1" isvisible="False" order="60" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="FrameNameField" value="-1" isvisible="False" order="70" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="FrameNameVisibleField" value="-1" isvisible="False" order="80" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="LineVisibleField" value="2" isvisible="False" order="90" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="PointVisibleField" value="-1" isvisible="False" order="100" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="LineColorField" value="3" isvisible="False" order="110" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="IsReferenceField" value="4" isvisible="False" order="120" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="PositionStatusField" value="5" isvisible="False" order="130" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="IsContinuousField" value="6" isvisible="False" order="140" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="UniqueIdentifier" value="5" isvisible="False" order="150" type="System.String" constraint="AllValuesAllowed" />
+            <property name="DatabaseVersion" value="2" isvisible="False" order="160" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="SchemaObjectsCount" value="10" isvisible="False" order="170" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="ExternalJointCount" value="2" isvisible="False" order="180" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="Description" value="" isvisible="False" order="190" type="System.String" constraint="AllValuesAllowed" />
+            <property name="IsVisible" value="True" isvisible="False" order="200" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="ShowLine" value="True" isvisible="False" order="210" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="ShowReferenceFrames" value="True" isvisible="False" order="220" type="System.Boolean" constraint="AllValuesAllowed" />
+            <property name="MaxSpeedField" value="7" isvisible="False" order="230" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccelerationField" value="8" isvisible="False" order="240" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="DecelerationField" value="9" isvisible="False" order="250" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="MaxAngularSpeedField" value="-1" isvisible="False" order="260" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AngularAccelerationField" value="-1" isvisible="False" order="270" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AngularDecelerationField" value="-1" isvisible="False" order="280" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccuracyMethodField" value="10" isvisible="False" order="290" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="AccuracyValueField" value="11" isvisible="False" order="300" type="System.Int32" constraint="AllValuesAllowed" />
+            <property name="ProcessHandler" isvisible="False" order="310" type="VisualComponents.Create3D.IBehavior" />
+            <property name="Apply Smoothing" value="" isvisible="True" order="400" type="VisualComponents.Create3D.IButtonProperty" constraint="AllValuesAllowed" />
+          </properties>
+        </statement>
+      </statements>
+    </routine>
+  </mainroutine>
+</program>
